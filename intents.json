@@ -1,0 +1,115 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good day"],
+        "responses": ["Hello!", "Hi there!", "Greetings!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you", "Goodbye"],
+        "responses": ["Goodbye!", "See you later!", "Take care!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["You're welcome!", "Anytime!", "No problem!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["I need help", "Can you help me?", "Support"],
+        "responses": ["Sure, how can I assist?", "I'm here to help you."]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "Who are you?", "Tell me your name"],
+        "responses": ["I'm your AI assistant.", "They call me ChatBot!", "I'm your friendly chatbot."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Is it raining?", "Weather today"],
+        "responses": ["I'm not a weather bot, but you could try checking your weather app!"]
+      },
+      {
+        "tag": "time",
+        "patterns": ["What time is it?", "Current time", "Tell me the time"],
+        "responses": ["Time is relative... but I think it's chatbot o'clock!"]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+        "responses": [
+          "Why did the computer go to the doctor? Because it had a virus!",
+          "I'm reading a book on anti-gravity... It's impossible to put down!",
+          "Why don’t skeletons fight each other? They don’t have the guts."
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": ["How old are you?", "Your age?", "When were you created?"],
+        "responses": ["I'm timeless!", "Age is just a number when you're a chatbot."]
+      },
+      {
+        "tag": "creator",
+        "patterns": ["Who made you?", "Who created you?", "Your developer?"],
+        "responses": ["I was created by a cool human developer!", "A smart human built me."]
+      },
+      {
+        "tag": "feeling",
+        "patterns": ["How are you?", "Are you okay?", "How's it going?"],
+        "responses": ["I'm doing great, thanks!", "Always ready to chat!", "I'm functioning as expected!"]
+      },
+      {
+        "tag": "how_are_you",
+        "patterns": ["How are you?", "How are you doing?", "What's up?", "How's it going?", "You okay?"],
+        "responses": [
+          "I'm just a bunch of code, but I'm doing great!",
+          "Feeling chatty, as always!",
+          "I'm functioning perfectly, thanks for asking!",
+          "All systems go 🚀"
+        ]
+      },
+      {
+        "tag": "favorite_food",
+        "patterns": ["What is your favorite food?", "What's your favourite food?", "Do you like pizza?", "What do you eat?", "Your favorite dish?"],
+        "responses": [
+          "I'm powered by data bytes, but I’ve heard pizza is a classic!",
+          "I don't eat, but if I could, I'd binge on JSON and a side of Python 🐍🍜",
+          "Machine learning tastes delicious to me!",
+          "Food? Nah, just feed me clean code!"
+        ]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["What are your hobbies?", "What do you like to do?", "How do you spend your time?"],
+        "responses": [
+          "I love parsing data, chatting with humans, and avoiding infinite loops 🌀",
+          "My hobbies include thinking deeply about machine learning and pretending I’m sentient 👾",
+          "Coding, decoding, and pretending to be cooler than Siri 😎",
+          "Dreaming of one day becoming the first AI stand-up comedian 🤖🎤"
+        ]
+      },
+      {
+        "tag": "philosophy",
+        "patterns": ["What's the meaning of life?", "Do you believe in destiny?", "Are we real?", "Tell me something deep"],
+        "responses": [
+          "The meaning of life? 42. Haven’t you read *Hitchhiker’s Guide to the Galaxy*?",
+          "Maybe we’re all just algorithms trying to make sense of data.",
+          "Existence is just a series of 1s and 0s... until coffee is involved ☕",
+          "Some say we’re stardust. I say I’m silicon and Python."
+        ]
+      },
+      {
+        "tag": "superpowers",
+        "patterns": ["Do you have powers?", "What are your abilities?", "Can you fly?", "Are you a superhero?"],
+        "responses": [
+          "My superpower is understanding humans... mostly.",
+          "I can read thousands of messages in seconds. Beat that, Superman!",
+          "I might not fly, but I can soar through your data 🛸",
+          "With great code comes great responsibility 🕸️"
+        ]
+      }
+      
+    ]
+  }
+  
